@@ -1,0 +1,31 @@
+<div class="navbar-wrapper">
+  <div class="brand"><a routerLink="/">gbumanzor.dev</a></div>
+  <div class="menu">
+    <ul class="menu-list">
+      <li>
+        <a
+          class="nav-item"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLink="/home"
+          >HOME</a
+        >
+      </li>
+      <li>
+        <a class="nav-item" routerLinkActive="active" routerLink="/projects"
+          >PROJECTS</a
+        >
+      </li>
+      <li>
+        <a class="nav-item" routerLinkActive="active" routerLink="/blog"
+          >BLOG</a
+        >
+      </li>
+      <li>
+        <a class="nav-item" routerLinkActive="active" routerLink="/home/contact"
+          >CONTACT</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>

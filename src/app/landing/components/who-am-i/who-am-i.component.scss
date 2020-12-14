@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 128px);
+}
+
+.main-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 35vw;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 50vw;
+
+  h1 {
+    font-size: 56px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  p:not(:first-child) {
+    margin-top: 16px;
+  }
+}
+
+.slide-down {
+  display: flex;
+  align-self: center;
+  justify-self: flex-end;
+  margin-top: auto;
+
+  img {
+    width: 40px;
+  }
+}

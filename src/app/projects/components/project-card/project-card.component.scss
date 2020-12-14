@@ -1,0 +1,26 @@
+.project-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ccc;
+}
+
+h3 {
+  padding: 16px;
+}
+
+p {
+  padding: 0 16px;
+  font-family: 'PT Mono';
+}
+
+.card-actions {
+  margin-top: 16px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
+  gap: 16px;
+
+  img {
+    width: 24px;
+  }
+}
