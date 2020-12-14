@@ -27,10 +27,12 @@
 
   h1 {
     font-size: 56px;
+    font-family: 'PT Mono';
   }
 
   p {
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   p:not(:first-child) {
