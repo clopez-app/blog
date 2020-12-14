@@ -1,0 +1,8 @@
+$padding: 24px;
+
+.layout-wrapper {
+  padding: $padding;
+  background-color: #fafafa;
+  width: calc(100vw - 48px);
+  min-height: calc(100vh - 48px);
+}
