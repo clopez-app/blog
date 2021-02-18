@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 import { BlogLandingComponent } from './components/blog-landing/blog-landing.component';
 
 const routes: Routes = [
@@ -9,5 +9,8 @@ const routes: Routes = [
   },
 ];
 
-@NgModule({ imports: [RouterModule.forChild(routes)], exports: [RouterModule] })
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
+})
 export class BlogRoutingModule {}
